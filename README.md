@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# Mathias’s dotfiles (well, Jim's now, but credit where credit is due!)
 
 ![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
 
@@ -82,6 +82,10 @@ When setting up a new Mac, you may want to install some common [Homebrew](https:
 ```
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.
+
+### VIM
+
+There's a veritable smorgasboard of colorschemes available for vim. You can change the default color scheme you'd like to use by editing the .vimrc file and finding the `colorscheme x` line. If you'd like to see what a theme looks like in vim use `:colorscheme x` to change it.
 
 ## Feedback
 

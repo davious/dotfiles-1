@@ -93,5 +93,8 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+brew cask install flux
+brew cask install spectacle
+
 # Remove outdated versions from the cellar.
 brew cleanup

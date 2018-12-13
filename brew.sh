@@ -98,7 +98,7 @@ brew cask install spectacle
 brew cask install iterm2
 brew cask install pycharm-ce
 brew cask install intellij-idea-ce
-
+brew cask install slack
 
 # Remove outdated versions from the cellar.
 brew cleanup

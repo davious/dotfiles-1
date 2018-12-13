@@ -95,6 +95,10 @@ brew install zopfli
 
 brew cask install flux
 brew cask install spectacle
+brew cask install iterm2
+brew cask install pycharm-ce
+brew cask install intellij-idea-ce
+
 
 # Remove outdated versions from the cellar.
 brew cleanup

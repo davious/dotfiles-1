@@ -99,6 +99,12 @@ brew cask install iterm2
 brew cask install pycharm-ce
 brew cask install intellij-idea-ce
 brew cask install slack
+brew cask install anaconda
+brew cask install datagrip
+brew cask install spotify
+brew cask install box-drive
+brew cask install visual-studio-code
+brew cask install tunnelblick
 
 # Remove outdated versions from the cellar.
 brew cleanup

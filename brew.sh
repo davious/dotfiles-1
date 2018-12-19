@@ -92,8 +92,9 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install freetds
+brew install docker
 
-brew cask install flux
 brew cask install spectacle
 brew cask install iterm2
 brew cask install pycharm-ce
@@ -105,6 +106,7 @@ brew cask install spotify
 brew cask install box-drive
 brew cask install visual-studio-code
 brew cask install tunnelblick
+brew cask 
 
 # Remove outdated versions from the cellar.
 brew cleanup

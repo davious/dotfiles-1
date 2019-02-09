@@ -1,0 +1,20 @@
+### pacman installs
+
+## dev stuff
+sudo pacman -Syu vim code pycharm-community-edition intellij-idea-community-edition scala guake\
+ riot-desktop deluge\
+ redshift yay\
+ dwarffortress stone-soup steam-manjaro\
+ zenmap
+ 
+sudo yay -Syu spotify dropbox
+
+
+
+### tweaks
+# remove pcspkr!
+echo 'blacklist pcspkr' >> /etc/modprobe.d/blacklist
+
+
+mkdir ~/execs
+mkdir ~/misc

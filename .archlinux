@@ -1,20 +1,26 @@
 ### pacman installs
 
 ## dev stuff
-sudo pacman -Syu vim code pycharm-community-edition intellij-idea-community-edition scala guake\
- riot-desktop deluge\
- redshift yay\
- dwarffortress stone-soup steam-manjaro\
- zenmap
- 
-sudo yay -Syu spotify dropbox
+sudo pacman -Syu vim code pycharm-community-edition intellij-idea-community-edition scala\
+ deluge\
+ redshift\
+ conky polybar tint2\
+ openvpn\ 
+ dwarffortress stone-soup steam-manjaro dosbox
 
+yay -Syu spotify dropbox zenmap
+
+# install settings sync for vs code. 
+vs-sync-gist=6fc132f3ef693f4a74b45d637b17238c
+code --install-extension shan.code-settings-sync
+
+# copy over settings for conky, tint2, polybar, openbox
+cp -r ./.config ~/
 
 
 ### tweaks
 # remove pcspkr!
-echo 'blacklist pcspkr' >> /etc/modprobe.d/blacklist
+sudo echo 'blacklist pcspkr' >> /etc/modprobe.d/blacklist
 
 
-mkdir ~/execs
-mkdir ~/misc
+mkdir ~/{misc,notes,code}

@@ -4,11 +4,10 @@
 sudo pacman -Syu vim code pycharm-community-edition intellij-idea-community-edition scala\
  deluge\
  redshift\
- conky polybar tint2\
- openvpn\ 
+ conky polybar tint2 syncthing\
  dwarffortress stone-soup steam-manjaro dosbox
 
-yay -Syu spotify dropbox zenmap
+#yay -Syu spotify dropbox zenmap
 
 # install settings sync for vs code. 
 vs-sync-gist=6fc132f3ef693f4a74b45d637b17238c

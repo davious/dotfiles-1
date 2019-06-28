@@ -1,3 +1,6 @@
 [submodule "tint2-theme-collections"]
 	path = tint2-theme-collections
 	url = git@github.com:julbright/tint2-theme-collections.git
+[submodule "almighty-dotfiles"]
+	path = almighty-dotfiles
+	url = git@github.com:julbright/almighty-dotfiles.git

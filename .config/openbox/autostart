@@ -8,7 +8,8 @@ sleep 1; manjaro-compositor --start &
 
 ### restore wallpaper
 sleep 1; nitrogen --restore &
-sleep 1; manjaro-tint2-session &
+sleep 1; tint2 -c ~/.config/tint2/raven-lavender.tint2rc &
+#sleep 1; manjaro-tint2-session &
 
 ### Openbox autostart
 sleep 1; ob-autostart -d &
